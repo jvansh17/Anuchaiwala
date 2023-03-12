@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    {{>navbar}}
+
+  {{!-- hero section start --}}
+    <div class="container-fluid mt-10">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column"> 
+              <h1> Welcome To <h1>AnuChaiWala</h1> 
+             <br> <h2 style="color:black">"I say let the world go to hell,<span class="bold-style">but I should always have my tea"</span></h2>
+            </div>
+              {{!-- Right side --}}
+             <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                <figure>
+                  <img class="img" src="images/top-view-two-cups-coffee-cookies-cinnamon-limes-chocolate-bars-wooden-cutting-board-dark-background_140725-143585.avif" alt="herosection_image" height="400px" width="600px">
+                </figure>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  {{!-- hero section end --}}
+
+  {{!--About section start --}}
+    {{>about}}
+  {{!-- About section end --}}
+
+  {{!--Service section start --}}
+    {{>service}}
+  {{!-- Service section end --}}
+
+   {{!--maop section start --}}
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.109040641761!2d77.04568031529857!3d28.446129199243295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18678202d7d9%3A0x3dcaab409d6b27bb!2sAnu%20Chai%20Wala!5e0!3m2!1sen!2sin!4v1678632118776!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  {{!-- map section end --}}
+
+  {{!--Contact section start --}}
+    {{>contact}}
+  {{!-- Contact section end --}}
+
+   {{!--Footer section start --}}
+  <footer f-credits>
+          <div class="f-credits">
+          <p>
+            Copyright ©2022 All rights reserved | This website is made and manage
+            by AnuChaiWala
+          </p>
+        </div>
+      </div>
+  </footer>
+  {{!-- Footer section end --}}
+
+ 
+  <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>

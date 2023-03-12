@@ -1,0 +1,27 @@
+{
+  "name": "anu_chaiwala",
+  "version": "1.0.0",
+  "description": "Website For Chai Vendor Anu Chai Wala",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "engines": {
+    "node": "18.13.0"
+  },
+  "keywords": [
+    "chai"
+  ],
+  "author": "Vansh jain",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jquery": "^3.6.4",
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21",
+    "validator": "^13.9.0"
+  }
+}
